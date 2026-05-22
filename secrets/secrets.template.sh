@@ -23,3 +23,15 @@ CAS_APP_PWD='YOUR_CAS_APP_PASSWORD'
 # define CAS apex developer account username/password
 CAS_APX_USER='CAS_APX_APP_DEV'
 CAS_APX_PWD='YOUR_CAS_APEX_PASSWORD'
+
+# define CAS data schema credentials
+CTP_DB_USER="TEMPL_PROJ_CAS"
+CTP_DB_PWD='YOUR_CTP_USER_PASSWORD'
+
+# define CAS application schema credentials
+CTP_APP_USER="TEMPL_PROJ_CAS_APP"
+CTP_APP_PWD='YOUR_CTP_APP_PASSWORD'
+
+# define CAS apex developer account username/password
+CTP_APX_USER="CTP_APX_APP_DEV"
+CTP_APX_PWD='YOUR_CTP_APEX_PASSWORD'

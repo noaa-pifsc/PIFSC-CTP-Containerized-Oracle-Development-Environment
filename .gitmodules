@@ -7,3 +7,6 @@
 [submodule "projects/CAS/modules/AAM"]
 	path = projects/CAS/modules/AAM
 	url = git@picgitlab.nmfs.local:centralized-data-tools/authorization-application-module.git
+[submodule "projects/CTP/modules/CTP"]
+	path = projects/CTP/modules/CTP
+	url = git@github.com:noaa-pifsc/PIFSC-Template-Project.git
