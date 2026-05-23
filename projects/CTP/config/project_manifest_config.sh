@@ -7,7 +7,7 @@
 	DB_SCRIPTS_MAP+=("${BUILD_PATH}/../../projects/CTP/modules/CTP/CTP/SQL|@dev_container_setup/create_docker_schemas.sql|oracle_admin_user|oracle_pwd|ctp_pwd|ctp_app_pwd|ctp_apx_user|ctp_apx_pwd")
 	
 	# deploy CTP DB
-	DB_SCRIPTS_MAP+=("${BUILD_PATH}/../../projects/CTP/modules/CTP/CTP/SQL|@automated_deployments/deploy_dev.sql|ctp_user|ctp_pwd")
+	DB_SCRIPTS_MAP+=("${BUILD_PATH}/../../projects/CTP/modules/CTP/CTP/SQL|@automated_deployments/deploy_dev_container.sql|ctp_user|ctp_pwd")
 
 	# deploy CTP Apex app
 	DB_SCRIPTS_MAP+=("${BUILD_PATH}/../../projects/CTP/modules/CTP/CTP/SQL|@automated_deployments/deploy_apex_dev.sql|ctp_app_user|ctp_app_pwd")
