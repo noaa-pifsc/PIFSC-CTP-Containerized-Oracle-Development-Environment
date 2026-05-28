@@ -19,8 +19,8 @@
 	SECRET_MAPPING_ARR+=(
 		["ctp_pwd"]="CTP_DB_PWD"
 		["ctp_user"]="CTP_DB_USER"
-		["ctp_app_pwd"]="CTP_APP_PWD"
 		["ctp_app_user"]="CTP_APP_USER"
+		["ctp_app_pwd"]="CTP_APP_PWD"
 		["ctp_apx_user"]="CTP_APX_USER"
 		["ctp_apx_pwd"]="CTP_APX_PWD"
 	)
